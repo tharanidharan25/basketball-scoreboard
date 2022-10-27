@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "timer";
+    src: url("font.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #1d3557;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: "timer";
+    letter-spacing: 0.2em
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score, #guest-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 130px;
+    height: 85px;
+    margin-bottom: 15px;
+}
+
+#home-current, #guest-current {
+    font-family: "timer";
+    color: #ef233c;
+    font-size: 60px
+}
+
+.btn {
+    margin: 1px;
+    width: 35px;
+    height: 30px;
+    background-color: #1d3557;
+    color: white;
+    font-family: "timer";
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 100;
+}
+
+#reset-btn {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 40px;
+}
